@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "21Cent";
+    src: url("../fonts/21Cent/21Cent.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "21Cent";
+    src: url("../fonts/21Cent/21Cent.otf") format("opentype");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "21Cent";
+    src: url("../fonts/21Cent/21Cent-Bold.otf") format("opentype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "21Cent";
+    src: url("../fonts/21Cent/21Cent-BoldItalic.otf") format("opentype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "21Cent";
+    src: url("../fonts/21Cent/21Cent-Thin.otf") format("opentype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "21Cent";
+    src: url("../fonts/21Cent/21Cent-CondensedUltraLight.otf") format("opentype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    max-height: 100%;
+    overflow: auto;
+    font-family: "21Cent", sans-serif;
+    background: -moz-radial-gradient(circle at center, rgba(254, 254, 255, 0.5), rgba(254, 254, 255, 0.2) 25%, rgba(254, 254, 255, 0) 53%) no-repeat,,
+    -moz-linear-gradient(to right, rgba(231,207,179,1) 0%, rgba(221,189,150,1) 25%, rgba(211,171,121,1) 51%, rgba(187,145,99,1) 75%, rgba(162,119,77,1) 100%),
+    url("../img/bg.svg"); /* ff3.6+ */
+    background: -webkit-radial-gradient(circle at center, rgba(254, 254, 255, 0.5), rgba(254, 254, 255, 0.2) 25%, rgba(254, 254, 255, 0) 53%) no-repeat,
+    -webkit-linear-gradient(to right, rgba(231,207,179,1) 0%, rgba(221,189,150,1) 25%, rgba(211,171,121,1) 51%, rgba(187,145,99,1) 75%, rgba(162,119,77,1) 100%),
+    url("../img/bg.svg"); /* safari5.1+,chrome10+ */
+    background: -o-radial-gradient(circle at center, rgba(254, 254, 255, 0.5), rgba(254, 254, 255, 0.2) 25%, rgba(254, 254, 255, 0) 53%) no-repeat,
+    -o-linear-gradient(to right, rgba(231,207,179,1) 0%, rgba(221,189,150,1) 25%, rgba(211,171,121,1) 51%, rgba(187,145,99,1) 75%, rgba(162,119,77,1) 100%),
+    url("../img/bg.svg"); /* opera 11.10+ */
+    background: -ms-radial-gradient(circle at center, rgba(254, 254, 255, 0.5), rgba(254, 254, 255, 0.2) 25%, rgba(254, 254, 255, 0) 53%) no-repeat,
+    -ms-linear-gradient(to right, rgba(231,207,179,1) 0%, rgba(221,189,150,1) 25%, rgba(211,171,121,1) 51%, rgba(187,145,99,1) 75%, rgba(162,119,77,1) 100%),
+    url("../img/bg.svg"); /* ie10+ */
+    background: radial-gradient(circle at center, rgba(254, 254, 255, 0.5), rgba(254, 254, 255, 0.2) 25%, rgba(254, 254, 255, 0) 53%) no-repeat,
+    linear-gradient(to right, rgba(231,207,179,0.95) 0%, rgba(221,189,150,0.95) 25%, rgba(211,171,121,0.95) 51%, rgba(187,145,99,0.95) 75%, rgba(162,119,77,0.95) 100%),
+    url("../img/bg.svg"); /* w3c */
+}
+
+h1, h2, h3 {
+    font-weight: 200;
+    font-size: 29px;
+}
+
+h2, h3 {
+    margin: 10px 0;
+}
+.txt-c {
+    text-align: center;
+}
+
+.wrap {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 20px 0 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.logo img {
+    width: 60%;
+}
+
+.tools {
+    height: 200px;
+    background: url("../img/tools.svg") center 25px no-repeat;
+}
+.container {
+}
+
