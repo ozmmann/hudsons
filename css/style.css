@@ -42,19 +42,19 @@ body {
     overflow: auto;
     font-family: "21Cent", sans-serif;
     background: -moz-radial-gradient(circle at center, rgba(254, 254, 255, 0.5), rgba(254, 254, 255, 0.2) 25%, rgba(254, 254, 255, 0) 53%) no-repeat,,
-    -moz-linear-gradient(to right, rgba(231,207,179,1) 0%, rgba(221,189,150,1) 25%, rgba(211,171,121,1) 51%, rgba(187,145,99,1) 75%, rgba(162,119,77,1) 100%),
+    -moz-linear-gradient(to right, rgba(231, 207, 179, 1) 0%, rgba(221, 189, 150, 1) 25%, rgba(211, 171, 121, 1) 51%, rgba(187, 145, 99, 1) 75%, rgba(162, 119, 77, 1) 100%),
     url("../img/bg.svg"); /* ff3.6+ */
     background: -webkit-radial-gradient(circle at center, rgba(254, 254, 255, 0.5), rgba(254, 254, 255, 0.2) 25%, rgba(254, 254, 255, 0) 53%) no-repeat,
-    -webkit-linear-gradient(to right, rgba(231,207,179,1) 0%, rgba(221,189,150,1) 25%, rgba(211,171,121,1) 51%, rgba(187,145,99,1) 75%, rgba(162,119,77,1) 100%),
+    -webkit-linear-gradient(to right, rgba(231, 207, 179, 1) 0%, rgba(221, 189, 150, 1) 25%, rgba(211, 171, 121, 1) 51%, rgba(187, 145, 99, 1) 75%, rgba(162, 119, 77, 1) 100%),
     url("../img/bg.svg"); /* safari5.1+,chrome10+ */
     background: -o-radial-gradient(circle at center, rgba(254, 254, 255, 0.5), rgba(254, 254, 255, 0.2) 25%, rgba(254, 254, 255, 0) 53%) no-repeat,
-    -o-linear-gradient(to right, rgba(231,207,179,1) 0%, rgba(221,189,150,1) 25%, rgba(211,171,121,1) 51%, rgba(187,145,99,1) 75%, rgba(162,119,77,1) 100%),
+    -o-linear-gradient(to right, rgba(231, 207, 179, 1) 0%, rgba(221, 189, 150, 1) 25%, rgba(211, 171, 121, 1) 51%, rgba(187, 145, 99, 1) 75%, rgba(162, 119, 77, 1) 100%),
     url("../img/bg.svg"); /* opera 11.10+ */
     background: -ms-radial-gradient(circle at center, rgba(254, 254, 255, 0.5), rgba(254, 254, 255, 0.2) 25%, rgba(254, 254, 255, 0) 53%) no-repeat,
-    -ms-linear-gradient(to right, rgba(231,207,179,1) 0%, rgba(221,189,150,1) 25%, rgba(211,171,121,1) 51%, rgba(187,145,99,1) 75%, rgba(162,119,77,1) 100%),
+    -ms-linear-gradient(to right, rgba(231, 207, 179, 1) 0%, rgba(221, 189, 150, 1) 25%, rgba(211, 171, 121, 1) 51%, rgba(187, 145, 99, 1) 75%, rgba(162, 119, 77, 1) 100%),
     url("../img/bg.svg"); /* ie10+ */
     background: radial-gradient(circle at center, rgba(254, 254, 255, 0.5), rgba(254, 254, 255, 0.2) 25%, rgba(254, 254, 255, 0) 53%) no-repeat,
-    linear-gradient(to right, rgba(231,207,179,0.95) 0%, rgba(221,189,150,0.95) 25%, rgba(211,171,121,0.95) 51%, rgba(187,145,99,0.95) 75%, rgba(162,119,77,0.95) 100%),
+    linear-gradient(to right, rgba(231, 207, 179, 0.95) 0%, rgba(221, 189, 150, 0.95) 25%, rgba(211, 171, 121, 0.95) 51%, rgba(187, 145, 99, 0.95) 75%, rgba(162, 119, 77, 0.95) 100%),
     url("../img/bg.svg"); /* w3c */
 }
 
@@ -66,6 +66,7 @@ h1, h2, h3 {
 h2, h3 {
     margin: 10px 0;
 }
+
 .txt-c {
     text-align: center;
 }
@@ -89,6 +90,57 @@ img {
     height: 200px;
     background: url("../img/tools.svg") center 25px no-repeat;
 }
-.container {
+
+.owl-carousel .owl-item img {
+    height: auto;
+    width: 100%;
+    display: block;
 }
 
+.owl-carousel .item {
+    margin: 0px;
+}
+
+#owl-demo .item {
+    display: block;
+    padding: 30px 0px;
+    margin: 5px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+    padding: 8px 9px;
+}
+
+.owl-theme .owl-buttons i {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+    position: absolute;
+}
+
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+    left: -45px;
+    top: 50%;
+    margin-top: -43px;
+}
+
+.owl-theme .owl-controls .owl-buttons .owl-next {
+    right: -45px;
+    top: 50%;
+    margin-top: -43px;
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+    background: rgba(162, 119, 77, 1);
+}
+
+.owl-theme .owl-controls .owl-page span {
+    background: rgba(162, 119, 77, 1);
+}
